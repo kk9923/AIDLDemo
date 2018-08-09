@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kx.studyview.aidl">
-
+    <permission
+        android:name="com.kx.studyview.aidl.permission.REMOTE_SERVICE_PERMISSION"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="com.kx.studyview.aidl.permission.REMOTE_SERVICE_PERMISSION" />
     <application
         android:name=".AndroidApplication"
         android:allowBackup="true"
